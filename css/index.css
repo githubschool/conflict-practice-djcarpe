@@ -13,13 +13,23 @@ body {
   overflow-x: hidden;
 }
 
+<<<<<<< HEAD
 a {
   color: #000;
 }
 
 a:hover {
   color: #fff;
+=======
+
+/**a{
+	color: #999999;
 }
+a:hover{
+	color: #dddddd;
+>>>>>>> origin/master
+}
+**/
 
 #intro_container,
 #outro_container {
@@ -118,6 +128,7 @@ span[cartoon]:hover{
   -moz-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
 }
+<<<<<<< HEAD
 #cartoon_arrow {
   display: block;
 
@@ -126,13 +137,40 @@ span[cartoon]:hover{
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 20px solid #fff;
+=======
+#cartoon_arrow{
+
+	display: block;
+
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid #fff;
+
+	position: absolute;
+	top:-20px;
+	left:90px;
+>>>>>>> origin/master
 
   position: absolute;
   top: -20px;
   left: 90px;
 }
+<<<<<<< HEAD
 #cartoon_arrow[flipped="true"] {
   display: block;
+=======
+#cartoon_arrow[flipped=true]{
+
+	display: block;
+
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 20px solid #fff;
+>>>>>>> origin/master
 
   width: 0;
   height: 0;
@@ -140,7 +178,10 @@ span[cartoon]:hover{
   border-right: 10px solid transparent;
   border-bottom: 20px solid #fff;
 
+<<<<<<< HEAD
   position: absolute;
   top: -20px;
   left: 140px;
+=======
+>>>>>>> origin/master
 }
